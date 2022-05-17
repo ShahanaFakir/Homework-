@@ -1,5 +1,6 @@
 package testJavaVariables.copy;
 
+
 public class AboutMe01 {
 
 	public int myFirstName; // public is an access modifier; int is a type of variable; myFirstName is the
@@ -18,6 +19,12 @@ public class AboutMe01 {
 	
 	public AboutMe01() {
 		System.out.println("I am Mr. Constructor. Don't be surprised when you see my strength!!");
+		
+	}
+	
+	public void myInfo() {
+		System.out.println("\nMy Name Is " + myFullName + "\nMy Age Is " + myAge + "\nMy Height Is " + myHeight);
+		
 		
 	}
 	
