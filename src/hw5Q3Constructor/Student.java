@@ -22,8 +22,8 @@ public class Student {
 		this.sex = sex;
 		this.grade = grade;
 		this.isProgrammer = isProgrammer;
-		System.out.println("\nMy Name is: " + stName + ". \nMy ID is: " + stID + ". \nMy Sex Is: " + sex + ". \nMy Grade Is: "
-				+ grade + ". \nAm I Java Programmer? Ans: " + isProgrammer);
+		System.out.println("\nMy Name is: " + stName + ". \nMy ID is: " + stID + ". \nMy Sex Is: " + sex
+				+ ". \nMy Grade Is: " + grade + ". \nAm I Java Programmer? Ans: " + isProgrammer);
 	}
 
 }
