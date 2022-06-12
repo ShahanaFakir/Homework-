@@ -1,4 +1,4 @@
-package hw10Abstraction;
+package hw11Abstraction;
 
 /*
  * This is an Abstract Class. Two keywords are used for the inheritance in
@@ -17,7 +17,7 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	// Method is implemented
 	// This method is called non abstract method.
 	public void anatomyLab() {
-		System.out.println("This method is from MedicalSchool Class");
+		System.out.println("AnatomyLab method is from MedicalSchool Abstract Class");
 
 	}
 
@@ -25,11 +25,13 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	// This method is called abstract method
 	public abstract void biochemistryLab();
 	
-
-	// We can create a Constructor inside Abstract Class.
-	public MedicalSchool() {
-		System.out.println("This default constructor is from MedicalSchool Class");
-
+	public static void medical() {
+		System.out.println("Medical method is from MedicalSchool Abstract Class");
 	}
+
+	/*
+	 * public default void biochemistryLab01() { } Default method is not allowed in
+	 * Abstract Class.
+	 */
 
 }
